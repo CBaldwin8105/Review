@@ -47,12 +47,8 @@ nav li {
     background-attachment: fixed;
 }
 
-.section3 {
-    background-image: url(images/3.jpeg);
-}
-
 .section4 {
-    background-image: url(images/4.jpeg);
+    background-image: url(images/3.jpeg);
     background-attachment: fixed;
 }
 
@@ -114,6 +110,45 @@ nav li {
     border-radius: 5px;
 }
 
+.section3 {
+    background-image: url(images/4.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    text-align: center;
+    color: white;
+}
+
+.section3 p {
+    margin: 20px;
+    font-size: 20px;
+    color: orange;
+}
+
+.section3 input {
+    height: 30px;
+    border-color: transparent;
+    color: orange;
+}
+
+.section3 input::placeholder {
+    text-align: center;
+    color: rgb(255, 198, 93);
+    font-style: italic;
+}
+
+#button {
+    color: #fff;
+    background-color: orange;
+    font-size: 18x;
+    padding: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
 
 
 
