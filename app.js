@@ -85,6 +85,6 @@ function enterLetter() {
         counter -= 1;
         document.getElementById("wrong").innerHTML = counter
     } else if (counter == 1) {
-        alert("YOU LOST")
+        alert("You lost")
     }
 }
